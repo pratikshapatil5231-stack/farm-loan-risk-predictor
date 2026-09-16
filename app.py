@@ -205,7 +205,7 @@ elif menu == "📊 Predict Risk":
             loan_amount = st.number_input(
                 "🏦 Loan Amount (₹)",
                 min_value=1000,
-                max_value=1000000,
+                max_value=500000,
                 value=50000,
                 step=1000
             )
