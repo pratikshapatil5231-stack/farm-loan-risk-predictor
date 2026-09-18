@@ -192,8 +192,8 @@ elif menu == "📊 Predict Risk":
             income = st.number_input(
                 "💰 Annual Income (₹)",
                 min_value=10000,
-                max_value=1000000,
-                value=200000,
+                max_value=500000,
+                value=50000,
                 step=10000
             )
 
@@ -204,10 +204,10 @@ elif menu == "📊 Predict Risk":
 
             loan_amount = st.number_input(
                 "🏦 Loan Amount (₹)",
-                min_value=1000,
+                min_value=10000,
                 max_value=500000,
                 value=50000,
-                step=1000
+                step=10000
             )
 
             loan_term = st.number_input(
